@@ -55,11 +55,11 @@
     const stringTestOne = Boolean(emptyString)
     const stringTestTwo = Boolean(valueInString)
 
-    console.log(stringTestOne);
-    console.log(typeof stringTestOne);
+    // console.log(stringTestOne);
+    // console.log(typeof stringTestOne);
 
-    console.log(stringTestTwo);
-    console.log(typeof stringTestTwo);
+    // console.log(stringTestTwo);
+    // console.log(typeof stringTestTwo);
 
     // Boolean conversion
     /* ----------------- */ 
@@ -67,3 +67,62 @@
     // 0        => false
     // "value"  => true
     // ""       => false
+
+    // ********************* OPERATIONS ********************* //
+
+    const posValue = 5;
+    const negValue = -posValue
+    // console.log(negValue);
+
+    // console.log(2 + 2);
+    // console.log(2 - 2);
+    // console.log(2 * 2);
+    // console.log(2 ** 3); // power
+    // console.log(2 / 2);
+    // console.log(2 % 2); //remainder
+
+    let str1 = "hello"
+    let str2 = " surya"
+
+    let str3 = str1 + str2
+    // console.log(str3);
+
+    // console.log( 1 + "2" );
+    // console.log( "1" + 2 );
+    // console.log( "1" + "2" );
+    // console.log( "1" + 2 + 2 );
+    // console.log( 1 + 2 + "2" );
+
+    const strNum = 1 + "2"
+    const numStr = "1" + 2
+    const numNumStr = 1 + 2 + "3"
+
+    // console.log(strNum);
+    // console.log(typeof strNum);
+    // console.log(numStr);
+    // console.log(typeof numStr);
+    // console.log(numNumStr);
+    // console.log(typeof numNumStr);
+
+    // Some unexpected conversions 😎
+    // console.log(true);
+    // console.log(+true);
+    // console.log(true + true);
+    // console.log(true - true);
+    // console.log(+"");
+    // console.log(+"surya");
+
+    let gameCounter = 100;
+    gameCounter++;
+
+    // console.log(gameCounter);
+
+    // Prefix and Postfix examples
+    /* --------------------------- */
+    let a = 1;
+    a = a++;            //value changes after operation
+    console.log(a);
+
+    let x = 1;
+    x = ++x             // value changes before operation
+    console.log(x);
