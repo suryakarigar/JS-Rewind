@@ -36,3 +36,5 @@ console.log(typeof createFunc);         // type: function
 // *JAVASCRIPT is a dynamically typed language as the types are defined at the runtime, and can be changed during execution.
 
 // NOTE: if you want to master JS, master 1.Object and 2.Web Events
+
+// Know more at: https://262.ecma-international.org/5.1/#sec-11.4.3
