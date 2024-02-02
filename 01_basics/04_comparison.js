@@ -1,32 +1,37 @@
-// console.log( 2 > 1 );
-// console.log( 2 >= 1 );
-// console.log( 2 < 1 );
-// console.log( 2 <= 1 );
-// console.log( 2 != 1 );
-// console.log( 2 == 1 );
-// console.log( 2 === 1 );
+/* --- COMMON TYPES OF COMPARISON --- */
+console.log( 2 > 1 );                // true
+console.log( 2 >= 1 );               // true
+console.log( 2 < 1 );                // false
+console.log( 2 <= 1 );               // false
+console.log( 2 != 1 );               // true
+console.log( 2 == 1 );               // false
+console.log( 2 === 1 );              // false
 
-// console.log( "2" > 1 );
-// console.log( 2 > "1" );
-// These types of conversion can result in faulty output. Never compare same datatypes (recommended)
+/* --- DIFFERENT DATATYPES COMPARISON --- */
+console.log( "2" > 1 );              // true
+console.log( 2 > "1" );              // true
+/*  These types of conversion can result in faulty output. 
+    Never compare different datatypes (recommended) */
 
-// console.log( null > 0 );
-// console.log( null < 0 );
-// console.log( null >= 0 );
-// console.log( null <= 0 );
-// console.log( null == 0 );
+/* --- NULL COMPARISON --- */
+console.log( null > 0 );             // false
+console.log( null < 0 );             // false
+console.log( null >= 0 );            // true
+console.log( null <= 0 );            // true
+console.log( null == 0 );            // false
 
-// console.log( undefined > 0 );
-// console.log( undefined < 0 );
-// console.log( undefined >= 0 );
-// console.log( undefined <= 0 );
-// console.log( undefined == 0 );
+/* --- UNDEFINED COMPARISON --- */
+console.log( undefined > 0 );        // false
+console.log( undefined < 0 );        // false
+console.log( undefined >= 0 );       // false
+console.log( undefined <= 0 );       // false
+console.log( undefined == 0 );       // false
 
 /* --- STRICT CHECK --- */
-// console.log("2" == 2);   (== ignores datatype in comparison)
-// console.log("2" === 2);  (=== stricktly checks datatype in comparison)
+console.log("2" == 2);   // (== ignores datatype in comparison)
+console.log("2" === 2);  // (=== stricktly checks datatype in comparison)
 
-console.log( 2 === 2 );         // true
-console.log( 2 === "2" );       // false
-console.log( "2" === "2" );     // true
-console.log( "2" === 2 );       // false
+console.log( 2 === 2 );              // true
+console.log( 2 === "2" );            // false
+console.log( "2" === "2" );          // true
+console.log( "2" === 2 );            // false
