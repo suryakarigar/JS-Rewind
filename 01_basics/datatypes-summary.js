@@ -38,3 +38,40 @@ console.log(typeof createFunc);         // type: function
 // NOTE: if you want to master JS, master 1.Object and 2.Web Events
 
 // Know more at: https://262.ecma-international.org/5.1/#sec-11.4.3
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+// Stack Memory (Primitive)
+// Heap Memory (Non-Primitive)
+
+// Stack memory example:
+
+let myName = 'Surya'
+
+// Assigning myName value to callMe variable
+let callMe = myName;
+
+// Changing the value of callMe variable
+callMe = 'Raja'
+
+console.log(myName);    // Surya
+console.log(callMe);    // Raja
+
+// Heap memory example:
+
+let userOne = {
+    email: "surya@google.com",
+    upiID: "karigar@ybl"
+}
+
+// Assigning userOne value to userTwo variable
+let userTwo = userOne;
+
+// Changing the email of userTwo value
+userTwo.email = "karigar@google.com"
+
+// Let's print both variables
+console.log(userOne.email);     // karigar@google.com
+console.log(userTwo.email);     // karigar@google.com
+
+// Figma link for NOTES: http://tinyurl.com/JSMemoryNotes
